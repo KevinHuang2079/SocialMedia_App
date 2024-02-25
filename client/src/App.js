@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginComponent from './components/LoginComponent';
 import RegisterComponent from './components/RegisterComponent';
-import UserPage from './pages/UserPage';
+import UserPage from '../pages/UserPage';
 
 function App() {
   const [showLogin, setShowLogin] = useState(true);
